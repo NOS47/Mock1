@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29215.179
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Skat", "Skat\Skat.csproj", "{90D5C167-D91A-4C5A-A430-2E0A6C58635F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestSkat", "TestSkat\TestSkat.csproj", "{56832539-FEF9-4ED3-AE3E-D5B43D013722}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TcpSkatClient", "TcpSkatClient\TcpSkatClient.csproj", "{EA3B30DE-11C7-4A43-9663-52A9F0186689}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TCPSkatServer", "TCPSkatServer\TCPSkatServer.csproj", "{E621E6C9-B1EA-4547-B3C7-0F94E41FF22F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{90D5C167-D91A-4C5A-A430-2E0A6C58635F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90D5C167-D91A-4C5A-A430-2E0A6C58635F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90D5C167-D91A-4C5A-A430-2E0A6C58635F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90D5C167-D91A-4C5A-A430-2E0A6C58635F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56832539-FEF9-4ED3-AE3E-D5B43D013722}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56832539-FEF9-4ED3-AE3E-D5B43D013722}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56832539-FEF9-4ED3-AE3E-D5B43D013722}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56832539-FEF9-4ED3-AE3E-D5B43D013722}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA3B30DE-11C7-4A43-9663-52A9F0186689}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA3B30DE-11C7-4A43-9663-52A9F0186689}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA3B30DE-11C7-4A43-9663-52A9F0186689}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA3B30DE-11C7-4A43-9663-52A9F0186689}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E621E6C9-B1EA-4547-B3C7-0F94E41FF22F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E621E6C9-B1EA-4547-B3C7-0F94E41FF22F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E621E6C9-B1EA-4547-B3C7-0F94E41FF22F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E621E6C9-B1EA-4547-B3C7-0F94E41FF22F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E648AC8D-9D67-47F6-8CF3-1EB90826F721}
+	EndGlobalSection
+EndGlobal
